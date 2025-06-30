@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Theorema Mundi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About Theorema Mundi</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="submit.html">Submit Your Theory</a>
+      <a href="theories.html">Browse Theories</a>
+    </nav>
+  </header>
+  <main>
+    <p>Theorema Mundi is an international platform founded by Prof. Einstein.J.R, age 15, to empower thinkers of all ages to share revolutionary theories. This site is a safe space to contribute, explore, and debate the unthinkable. Join the new scientific awakening today.</p>
+  </main>
+  <footer>
+    &copy; 2025 Theorema Mundi | News Theory Production
+  </footer>
+</body>
+</html>
