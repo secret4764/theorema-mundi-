@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Theory - Theorema Mundi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Your Theory</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="theories.html">Browse Theories</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <label for="name">Full Name / Pen Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="title">Theory Title</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="field">Field of Knowledge</label>
+      <select id="field" name="field" required>
+        <option value="">-- Select --</option>
+        <option>Physics</option>
+        <option>Mathematics</option>
+        <option>Philosophy</option>
+        <option>Astronomy</option>
+        <option>AI & Computation</option>
+        <option>Other</option>
+      </select>
+
+      <label for="abstract">Theory Abstract</label>
+      <textarea id="abstract" name="abstract" rows="4" required></textarea>
+
+      <label for="description">Full Description</label>
+      <textarea id="description" name="description" rows="6" required></textarea>
+
+      <label for="formula">Mathematical Formula (optional)</label>
+      <textarea id="formula" name="formula" rows="3"></textarea>
+
+      <label for="evidence">Evidence / Calculations / References</label>
+      <textarea id="evidence" name="evidence" rows="5"></textarea>
+
+      <label for="supplement">Supplementary Material (URL)</label>
+      <input type="text" id="supplement" name="supplement">
+
+      <label><input type="checkbox" name="originality" required> I confirm that this is my original work and I agree to publish it on Theorema Mundi.</label>
+
+      <input type="submit" value="Submit Theory">
+    </form>
+  </main>
+  <footer>
+    &copy; 2025 Theorema Mundi | News Theory Production
+  </footer>
+</body>
+</html>
