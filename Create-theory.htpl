@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Theory - Theorema Mundi</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      font-weight: bold;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #1e40af;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Create Your Theory</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="theories.html">Browse Theories</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <label for="title">Theory Title</label>
+      <input type="text" id="title" name="title" placeholder="Enter your theory title" required><label for="description">Theory Description</label>
+  <textarea id="description" name="description" rows="6" placeholder="Explain your theory in detail" required></textarea>
+
+  <label for="evidence">Evidence or Work</label>
+  <textarea id="evidence" name="evidence" rows="6" placeholder="Include references, calculations, experiments, etc." required></textarea>
+
+  <input type="submit" value="Submit Theory">
+</form>
+
+  </main>
+  <footer>
+    &copy; 2025 Theorema Mundi | News Theory Production
+  </footer>
+</body>
+</html>
