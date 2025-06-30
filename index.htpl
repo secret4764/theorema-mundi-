@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Theorema Mundi - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Theorema Mundi</h1>
+    <p>The Future of Independent Theory</p>
+    <nav>
+      <a href="submit.html">Submit Your Theory</a>
+      <a href="theories.html">Browse Theories</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome Visionaries</h2>
+      <p>This is your platform to challenge the norms, defy limitations, and spark new revolutions in thought.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Theorema Mundi | News Theory Production
+  </footer>
+</body>
+</html>
